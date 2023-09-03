@@ -1,6 +1,6 @@
 # Ajout au panier
 
-Simple algorithme en **JavaScript incrémenter le nombre de livres ajoutés au panier.**
+Simple algorithme en **JavaScript pour incrémenter le nombre de livres ajoutés au panier.**
 
 > Le fichier data.js contient la liste de livres stockée dans un objet. 
 
