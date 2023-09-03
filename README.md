@@ -1,7 +1,7 @@
-# Ajout au panier
+# Add to the cart
 
-Simple algorithme en **JavaScript pour incrémenter le nombre de livres ajoutés au panier.**
+Simple algorithm in **JavaScript to increment the number of books added to the cart.**
 
-> Le fichier data.js contient la liste de livres stockée dans un objet. 
+> The data.js file contains the list of books stored in an object.
 
-> Le fichier script.js contient la logique proprement dite pour parcourir notre objet, incrémenter le nombre de livres dans le panier, etc…
+> The script.js file contains the actual logic for traversing our object, incrementing the number of books in the basket, etc.
