@@ -15,5 +15,20 @@ data.book.forEach((datas) => {
   container.prepend(list);
 
   //increment of the basket when pressing on a book
-  list.addEventListener("click", incrementCart);
+  list.addEventListener("click", function () {
+    let confirmation = confirm("Voulez-vous ajouter ce livre au panier?");
+    if (confirmation) {
+      incrementCart();
+    }
+  });
+});
+
+// Add book in the list of de books
+let addBook = document.querySelector(".input");
+addBook.addEventListener("click", function () {
+  let booktitle = document.querySelector(".booktitle");
+  let title = booktitle.value;
+  title === ""
+    ? alert("Veillez saisir le titre du livre")
+    : data.book.push(title);
 });
