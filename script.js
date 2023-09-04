@@ -28,7 +28,9 @@ let addBook = document.querySelector(".input");
 addBook.addEventListener("click", function () {
   let booktitle = document.querySelector(".booktitle");
   let title = booktitle.value;
+  let list = document.createElement("li");
   title === ""
     ? alert("Veillez saisir le titre du livre")
-    : data.book.push(title);
+    : (list.innerHTML = title);
+  container.appendChild(list);
 });
